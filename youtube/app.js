@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     let url = 'https://www.googleapis.com/youtube/v3/search?key=';
-    let key = 'AIzaSyA-7uThQzLLnpF7Sx0Nsk9By1aovxFXW_4';
+    let key = '{API KEY}';
     let part = '&part=snippet&maxResults=10';
     let q = '&q=' + document.getElementById('name').value;
     let type = '&type=video';
